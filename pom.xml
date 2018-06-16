@@ -29,6 +29,7 @@
 	  
 	  <!-- java-servlet -->
 	  <version.servlet.spec>2.5</version.servlet.spec>
+	  <version.jsr.api>1.0</version.jsr.api>
 	  
 	  <!-- aspectj -->
 	  <version.aspectj>1.6.10</version.aspectj>
@@ -149,6 +150,13 @@
 			  <artifactId>servlet-api</artifactId>
 			  <version>${version.servlet.spec}</version>
 			  <scope>provided</scope>
+		  </dependency>
+		  
+		  <!-- jsr -->
+		  <dependency>
+			  <groupId>javax.annotation</groupId>
+			  <artifactId>jsr250-api</artifactId>
+			  <version>${version.jsr.api}</version>
 		  </dependency>
 		
 		  <!-- ******************************************** -->
