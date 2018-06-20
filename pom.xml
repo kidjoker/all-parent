@@ -16,6 +16,7 @@
 	  <!-- apache -->
 	  <version.commons-logging>1.1.1</version.commons-logging>
       <version.commons-io>2.3</version.commons-io>
+	  <version.commons-lang>2.6</version.commons-lang>
 
 	  <!-- testing -->
 	  <version.junit>4.7</version.junit>
@@ -80,6 +81,12 @@
               <artifactId>commons-io</artifactId>
               <version>${version.commons-io}</version>
           </dependency>
+
+		  <dependency>
+			  <groupId>commons-lang</groupId>
+			  <artifactId>commons-lang</artifactId>
+			  <version>${version.commons-lang}</version>
+		  </dependency>
       	  
 		  <!-- *********************************************** -->
 		  <!-- Spring framework -->
